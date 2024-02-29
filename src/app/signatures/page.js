@@ -1,3 +1,4 @@
+'use client'
 import { Box, Center, HStack, Heading, Icon, Text } from '@chakra-ui/react';
 import { BiSolidDrink } from "react-icons/bi";
 import React from 'react'

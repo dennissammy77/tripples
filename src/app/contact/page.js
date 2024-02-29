@@ -18,39 +18,6 @@ function Contact() {
                     Questions, comments or requests?<br/>
                     Feel free to reach out, <br/>we would love to hear from you.
                 </Text>
-                {/**
-                <HStack color='gray.400' my='4'>
-                    <Icon as={MdOutlineMail} boxSize={'4'}/>
-                    <Link href='mailto:trippleske@gmail.com' isExternal>
-                        trippleske@gmail.com
-                    </Link>
-                </HStack>
-                <HStack color='gray.400' my='4'>
-                    <Icon as={FaWhatsapp} boxSize={'4'}/>
-                    <Link href='whatsapp://send?phone=+254705595902' isExternal>
-                        +254705595902
-                    </Link>
-                </HStack>
-                <HStack color='gray.400' my='4'>
-                    <Icon as={FaPhone} boxSize={'4'}/>
-                    <Link href='tel:+254705595902' isExternal>
-                        +254705595902
-                    </Link>
-                </HStack>
-                <HStack color='gray.400' my='4'>
-                    <Icon as={BsInstagram} boxSize={'4'}/>
-                    <Link href='https://www.instagram.com/_t.r.i.p.p.l.e.s_/' isExternal>
-                        _t.r.i.p.p.l.e.s_
-                    </Link>
-                </HStack>
-                <HStack color='gray.400' my='4'>
-                    <Icon as={FaTiktok} boxSize={'4'}/>
-                    <Link href='https://www.tiktok.com/@tripples.cocktail?_t=8gngZy3R8Q2&_r=1' isExternal>
-                        _t.r.i.p.p.l.e.s_
-                    </Link>
-                </HStack>
-                 * 
-                 */}
             </GridItem>
             <GridItem colSpan={{ base: "auto", md: 4}}>
                 <HStack color='' my='4'>
@@ -83,27 +50,6 @@ function Contact() {
                         _t.r.i.p.p.l.e.s_
                     </Link>
                 </HStack>
-                {/** 
-                 * 
-                 * 
-                 * 
-                <Box as="form" mb={6} rounded="lg" shadow="xl">
-                    <SimpleGrid columns={1} px={6} py={4} spacing={4} borderBottom="solid 1px" color="gray.200">
-                        <Flex>
-                            <VisuallyHidden>First Name</VisuallyHidden>
-                            <Input mt={0} type="text" placeholder="First Name" />
-                        </Flex>
-                        <Flex>
-                            <VisuallyHidden>Email Address</VisuallyHidden>
-                            <Input mt={0} type="email" placeholder="Email Address" />
-                        </Flex>
-                        <Flex>
-                            <VisuallyHidden>Message</VisuallyHidden>
-                            <Textarea mt={0} placeholder="Message" h='200px'/>
-                        </Flex>
-                    </SimpleGrid>
-                </Box>
-                */}
             </GridItem>
         </SimpleGrid>
     </Box>

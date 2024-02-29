@@ -1,3 +1,4 @@
+'use client'
 import { Box, Center, Flex, Icon, Image, Text } from '@chakra-ui/react'
 import React from 'react';
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";

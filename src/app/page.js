@@ -8,7 +8,7 @@ import Contact from "./contact/page";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <Box>
       <Box position={'relative'}>

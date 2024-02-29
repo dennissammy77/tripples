@@ -6,7 +6,7 @@ import React from 'react'
 function Signatures() {
   return (
     <Center>
-        <Box border='1px solid #e3e3e3' borderRadius={'md'} p='6' my='10' w={{base:'90%',md:'30%'}}>
+        <Box border='1px solid #e3e3e3' borderRadius={'md'} p='6' my='10' w={{base:'90%',md:'90%',lg:'50%'}}>
             <Heading as='h1' my='8' textAlign={'center'}>SIGNATURES</Heading>
             {arr_signatures?.map((item,index)=>{
                 return(

@@ -19,32 +19,32 @@ function Contact() {
                     Feel free to reach out, <br/>we would love to hear from you.
                 </Text>
             </GridItem>
-            <GridItem colSpan={{ base: "auto", md: 4}}>
-                <HStack color='' my='4'>
+            <GridItem colSpan={{ base: "auto", md: 4}} w='full'>
+                <HStack color='' my='4' w='full'>
                     <Icon as={MdOutlineMail} boxSize={'4'}/>
                     <Link href='mailto:trippleske@gmail.com' isExternal>
                         trippleske@gmail.com
                     </Link>
                 </HStack>
-                <HStack color='' my='4'>
+                <HStack color='' my='4' w='full'>
                     <Icon as={FaWhatsapp} boxSize={'4'}/>
                     <Link href='whatsapp://send?phone=+254705595902' isExternal>
                         +254705595902
                     </Link>
                 </HStack>
-                <HStack color='' my='4'>
+                <HStack color='' my='4' w='full'>
                     <Icon as={FaPhone} boxSize={'4'}/>
                     <Link href='tel:+254705595902' isExternal>
                         +254705595902
                     </Link>
                 </HStack>
-                <HStack color='' my='4'>
+                <HStack color='' my='4' w='full'>
                     <Icon as={BsInstagram} boxSize={'4'}/>
                     <Link href='https://www.instagram.com/_t.r.i.p.p.l.e.s_/' isExternal>
                         _t.r.i.p.p.l.e.s_
                     </Link>
                 </HStack>
-                <HStack color='' my='4'>
+                <HStack color='' my='4' w='full'>
                     <Icon as={FaTiktok} boxSize={'4'}/>
                     <Link href='https://www.tiktok.com/@tripples.cocktail?_t=8gngZy3R8Q2&_r=1' isExternal>
                         _t.r.i.p.p.l.e.s_

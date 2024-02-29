@@ -11,7 +11,7 @@ export default function Home() {
   const router = useRouter();
   return (
     <Box>
-      <Box position={'relative'}>
+      <Box position={'relative'} w='full'>
         <Image src='../assests/home_bg.jpg' alt='home background' w='full' h='90vh' objectFit={'cover'}/>
         <Box position={'absolute'} top='40%' left='10vw' fontSize={'xxx-large'} fontWeight={'bold'} color='#fff'>
           <Text>Real Magic is a sip<br/>away</Text>
@@ -25,6 +25,9 @@ export default function Home() {
       <Qoute/>
       <Collage/>
       <Contact/>
+      {/**
+       * 
+       */}
     </Box>
   );
 }

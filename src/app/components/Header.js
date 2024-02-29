@@ -10,7 +10,7 @@ import { FaTiktok } from 'react-icons/fa';
 export default function Header() {
   const router = useRouter()
   return (
-    <Flex w='full' padding={{base:'4',md:'10'}} align={'center'}>
+    <Flex w='full' padding={{base:'4',md:'10'}} align={'center'} justifyContent='space-between'>
         <Text onClick={(()=>{router.push('/')})} fontSize={'x-large'} fontWeight={'bold'}>Tripples</Text>
         <HStack align={'center'}>
             <HStack color='' my='4'>

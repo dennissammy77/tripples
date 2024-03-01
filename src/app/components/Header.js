@@ -1,18 +1,24 @@
 'use client'
-import { Box, Flex, HStack, Icon, Text } from '@chakra-ui/react';
+import { Box, Button, Flex, HStack, Icon, Text } from '@chakra-ui/react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import React from 'react';
 import { BsInstagram } from 'react-icons/bs';
-import { FaTiktok } from 'react-icons/fa';
+import { FaLongArrowAltRight, FaTiktok } from 'react-icons/fa';
 
 
 export default function Header() {
   const router = useRouter()
   return (
-    <Flex w='full' padding={{base:'4',md:'10'}} align={'center'} justifyContent='space-between'>
+    <Flex w='full' padding={{base:'4',md:'6'}} align={'center'} justifyContent='space-between'>
         <Text onClick={(()=>{router.push('/')})} fontSize={'x-large'} fontWeight={'bold'}>Tripples</Text>
         <HStack align={'center'}>
+            {/**
+             * 
+             */}
+            <HStack alignItems={'center'} my='6' cursor={'pointer'} bg='#11181F' p='4' borderRadius={'md'}>
+                <Text color='#fff' fontSize={'large'} onClick={(()=>{router.push('/contact')})}>Book a session</Text>
+            </HStack>
             <HStack color='' my='4'>
                 <Link href='https://www.instagram.com/_t.r.i.p.p.l.e.s_/' isExternal>
                     <Icon as={BsInstagram} boxSize={'4'}/>

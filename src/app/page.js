@@ -15,7 +15,7 @@ export default function Home() {
       <Box position={'relative'} w='full'>
         <Image src='../assests/home_bg.jpg' alt='home background' w='full' h='90vh' objectFit={'cover'}/>
         <Box position={'absolute'} top='30%' left='10vw' fontSize={{base:'xx-large',md:'xxx-large'}} fontWeight={'bold'} color='#fff'>
-          <Text>Rain makes sugarcane<br/>Sugarcane makes rum<br/>Rum makes makes mojitos<br/>Mojitos makes babies</Text>
+          <Text>Rain makes sugarcane,<br/>Sugarcane makes rum,<br/>Rum makes mojitos,<br/>Mojitos makes babies.</Text>
         </Box>
       </Box>
       <Signatures/>
